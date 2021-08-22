@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/ivImage2"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher_background"/>
+<TextView
+    android:id="@+id/tvAppName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="appname"
+    android:layout_margin="15dp"
+    android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/tvRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rating"
+        android:textSize="25dp"
+        android:layout_margin="15dp"
+        />
+
+</LinearLayout>
